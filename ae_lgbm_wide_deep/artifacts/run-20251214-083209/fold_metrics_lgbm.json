@@ -1,0 +1,48 @@
+{
+  "target": "action_1d",
+  "n_folds": 4,
+  "oof_auc_lgbm": 0.5342067916160471,
+  "oof_auc_ae_lgbm": 0.5296609979643729,
+  "oof_auc_ae_lr": 0.5240546582062806,
+  "oof_auc_blend": 0.5358345912075336,
+  "sharpe_oof_proxy": 0.04125056391418262,
+  "oof_score_official": 0.40904564320143527,
+  "decision_pred_head": "blend",
+  "decision_meta": {
+    "coef": 5.0,
+    "decay": 0.5,
+    "threshold": 0.0,
+    "clip_low": 0.0,
+    "clip_high": 2.0,
+    "vol_window": 20,
+    "coverage_floor": 0.05,
+    "coverage": 0.46991450233908694,
+    "regime_enabled": true,
+    "oof_score_official": 0.40904564320143527
+  },
+  "oof_auc": 0.5342067916160471,
+  "fold_aucs": [
+    0.5209083969258607,
+    0.5715934576787076,
+    0.529958537270539,
+    0.5259215444013815
+  ],
+  "oof_coverage": 0.7999741902180927,
+  "best_params": {
+    "objective": "binary",
+    "metric": "auc",
+    "learning_rate": 0.03,
+    "num_leaves": 48,
+    "min_data_in_leaf": 20,
+    "feature_fraction": 0.7,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "min_gain_to_split": 0.0001,
+    "lambda_l1": 0.05,
+    "lambda_l2": 0.05,
+    "n_estimators": 3000,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": -1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pred_col": "pred_blend",
+  "score": 0.7721314106984163,
+  "params": {
+    "coef": 0.40412802156855643,
+    "shape": "long_only",
+    "center_shift": -0.049969934360666345,
+    "threshold": 0.005279806460319725,
+    "decay": 0.5526059336090072,
+    "vol_window": 5,
+    "ema_enable": false,
+    "ema_alpha": 0.1,
+    "use_regime": false,
+    "vol_source": "pred",
+    "clip_low": 0.0,
+    "clip_high": 2.0,
+    "min_invest": 0.0,
+    "max_invest": 2.0
+  },
+  "created_at": "2025-12-15T20:53:08.895967Z"
+}

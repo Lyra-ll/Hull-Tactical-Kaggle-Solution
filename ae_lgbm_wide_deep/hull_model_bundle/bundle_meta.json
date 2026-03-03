@@ -1,0 +1,13 @@
+{
+  "created_by": "pipeline.fit_evaluate",
+  "export_folds": [
+    2,
+    3,
+    4
+  ],
+  "n_splits": 5,
+  "n_last_folds": 3,
+  "weather_enable": true,
+  "wide_max_weather_cols": 8,
+  "wide_max_ae_z": 100
+}

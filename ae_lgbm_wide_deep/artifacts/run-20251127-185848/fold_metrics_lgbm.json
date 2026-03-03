@@ -1,0 +1,33 @@
+{
+  "target": "action_1d",
+  "n_folds": 4,
+  "oof_auc_lgbm": 0.5302708517998435,
+  "oof_auc_ae_lgbm": 0.5116394358625295,
+  "oof_auc_ae_lr": 0.5077606468789873,
+  "oof_auc_blend": 0.5287159894101698,
+  "oof_auc": 0.5302708517998435,
+  "fold_aucs": [
+    0.5267045153791347,
+    0.5431041858622936,
+    0.5374996841041677,
+    0.5378715596869014
+  ],
+  "oof_coverage": 0.7999741902180927,
+  "best_params": {
+    "objective": "binary",
+    "metric": "auc",
+    "learning_rate": 0.02866078260974997,
+    "num_leaves": 63,
+    "min_data_in_leaf": 73,
+    "feature_fraction": 0.841627146957839,
+    "bagging_fraction": 0.8215532548219839,
+    "bagging_freq": 5,
+    "min_gain_to_split": 0.0,
+    "lambda_l1": 0.6567159178095836,
+    "lambda_l2": 0.10299246673969358,
+    "n_estimators": 2000,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pred_col": "pred_blend",
+  "score": 0.664277122741806,
+  "coverage": 0.4703984513631231,
+  "params": {
+    "coef": 2.2031716082050545,
+    "threshold": 0.0014998037313254282,
+    "decay": 0.0,
+    "clip_low": 0.0,
+    "clip_high": 2.0,
+    "min_invest": 0.0,
+    "max_invest": 2.0,
+    "use_regime": false,
+    "regime_col": null,
+    "n_valid": 6199
+  },
+  "created_at": "2025-12-15T15:55:25.554981Z"
+}
